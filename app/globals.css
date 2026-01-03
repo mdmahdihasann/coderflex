@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root {
+  --cf-bg: #141414;
+  --cf-surface: #1f1f1f;
+  --cf-surface-2: #262626;
+  --cf-text: #e5e5e5;
+  --cf-muted: #b3b3b3;
+  --cf-border: #2a2a2a;
+  --cf-red: #e50914;
+}
+body{
+  background-color: var(--cf-bg);
+  color: var(--cf-text);
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+::selection {
+  background: rgba(229, 9, 20, 0.35);
+}
