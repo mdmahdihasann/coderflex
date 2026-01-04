@@ -17,7 +17,7 @@ const Details = ({video}) => {
         </section>
 
         {/* <!-- Similar Videos --> */}
-        <VideoSidbar/>
+        <VideoSidbar video={video}/>
       </div>
     </div>
   );

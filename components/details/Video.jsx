@@ -1,7 +1,9 @@
+
 const Video = ({ video }) => {
   if (!video?.videoURL) {
     return <p className="text-red-500">Video URL not found</p>;
   }
+  console.log(video.videoURL);
 
   return (
     <div className="relative aspect-video rounded-xl overflow-hidden bg-black ring-1 ring-white/10">
